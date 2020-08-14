@@ -212,18 +212,8 @@
 		</div>
 	</div>
 
-<script>
-	var hamburger = document.querySelector(".hamburger");
-	var wrapper  = document.querySelector(".wrapper");
-	var backdrop = document.querySelector(".backdrop");
-
-	hamburger.addEventListener("click", function(){
-		wrapper.classList.add("active");
-	})
-
-	backdrop.addEventListener("click", function(){
-		wrapper.classList.remove("active");
-	})
-</script>
+	<script src="<?php echo base_url('public/js/salarie.js')?>">
+	
+	</script>
 </body>
 </html>

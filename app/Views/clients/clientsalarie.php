@@ -226,8 +226,8 @@
 		</div>
 	</div>
 
-<!--script src="../public/js/salarie.js">
+	<script src="<?php echo base_url('public/js/salarie.js')?>">
 	
-</script-->
+	</script>
 </body>
 </html>
